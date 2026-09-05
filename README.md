@@ -2,6 +2,15 @@
 
 Projeto desenvolvido durante os estudos na Origamid, com foco na prática do uso de Flexbox para criação e organização de layouts.
 
+## 📚 Praticado
+
+- HTML
+- CSS
+- Flexbox
+- Organização de layouts
+- Alinhamento e distribuição de elementos
+- Layouts responsivos
+
 ## 🛠️ Tecnologias
 
 <p>
