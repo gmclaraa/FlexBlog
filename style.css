@@ -1,58 +1,65 @@
-body,h2,h1,p,ul,li,a{
+body,
+h2,
+h1,
+p,
+ul,
+li,
+a {
     margin: 0px;
     padding: 0px;
 
 }
 
-body{
+body {
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
     color: #222;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-img{
+img {
     display: block;
-    max-width: 100px;
+    max-width: 100%;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-.superinfo-bg{
+.superinfo-bg {
     background: #122ab2;
     color: white;
 }
 
-.superinfo a{
-    color:white;
+.superinfo a {
+    color: white;
 }
 
 .superinfo p,
-.superinfo a{
-    margin:  0 10px 10px 10px;
+.superinfo a {
+    margin: 0 10px 10px 10px;
 }
 
-.superinfo{
+.superinfo {
     max-width: 960px;
-    margin:  0 auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 10px;
 }
 
-.menu-bg{
-    background-color: #2c70ff ;
+.menu-bg {
+    background-color: #2c70ff;
 }
-.menu{
+
+.menu {
     max-width: 960px;
     margin: 0 auto;
     padding: 15px 0;
@@ -62,27 +69,73 @@ img{
     align-items: center;
 }
 
-.menu a{
+.menu a {
     color: white;
 }
 
-.menu-logo a{
+.menu-logo a {
     font-size: 2.25em;
     font-weight: bold;
     margin: 0 10px;
 }
 
-.menu-nav ul{
- display: flex;
- flex-wrap: wrap;
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.menu-nav a{
+.menu-nav a {
     font-size: 1.25em;
     display: block;
     padding: 10px;
 }
 
-.menu-nav a:hover{
+.menu-nav a:hover {
     background: #122ab2;
+}
+
+/*Introdução*/
+
+.introducao {
+    font-size: 3em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+}
+
+/*Sobre*/
+
+.sobre {
+    border-top: 2px solid #2c70ff;
+    border-bottom: 2px solid #2c70ff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.sobre-info {
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+
+.sobre-info h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.sobre-info p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+
+.sobre-img {
+    flex: 1 1 160px;
+    margin: 0 10px;
 }
